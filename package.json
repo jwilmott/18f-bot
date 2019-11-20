@@ -46,5 +46,8 @@
     "hubot-test-helper": "^1.9.0",
     "mocha": "^6.2.2",
     "prettier": "^1.18.2"
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }

@@ -28,13 +28,5 @@
     "defaultEmoji": ":dolphin:",
     "trigger": "dolphin fact",
     "responseUrl": "https://raw.githubusercontent.com/18F/18f-bot-facts/master/dolphins.json"
-  },
-  {
-    "trigger": "!!! (?<!boba )guy(s|z)(?=[^\"]*(\"[^\"]*\"[^\"]*)*$)",
-    "botName": "Charlie",
-    "defaultEmoji": ":18f:",
-    "responseList": [
-      "Did you mean *y'all*? (_<http://web.archive.org/web/20170714141744/https://18f.gsa.gov/2016/01/12/hacking-inclusion-by-customizing-a-slack-bot/|What's this?>_)"
-    ]
   }
 ]
