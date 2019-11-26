@@ -5,8 +5,7 @@
   "scripts": {
     "lint": "eslint scripts/*.js scripts/*.coffee",
     "test": "mocha --require coffeescript/register test/*",
-    "validate-config": "slack-github-issues validate config/slack-github-issues.json",
-    "postinstall": "sed -i'.backup' -e 's/\\(image: 18f\\/charlie:\\).*/\\1'`md5 -q package-lock.json`'/g' docker-compose.yml && rm docker-compose.yml.backup"
+    "validate-config": "slack-github-issues validate config/slack-github-issues.json"
   },
   "dependencies": {
     "@slack/client": "^5.0.2",
@@ -29,6 +28,7 @@
     "json": "^9.0.4",
     "request": "^2.88.0",
     "sinon": "^7.5.0",
+    "syllable": "^4.0.0",
     "twit": "^2.2.11",
     "underscore": "^1.9.1"
   },
